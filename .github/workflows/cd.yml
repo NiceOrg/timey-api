@@ -1,0 +1,33 @@
+name: cd
+
+on:
+  workflow_run:
+    workflows: ["ci"]
+    branches: [main]
+    types:
+      - completed
+      
+jobs:
+  cd:
+    runs-on: ${{ matrix.os }}
+    
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        
+    steps:
+      - name: Deploy and start server 🚀 
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          port: ${{ secrets.SERVER_PORT }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            kill -9 $(lsof -t -i:3000 -sTCP:LISTEN) 
+            cd ${{ secrets.PROJECT_PATH }} 
+            git pull --ff-only 
+            export NVM_DIR="$HOME/.nvm" 
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+            npm i 
+            (npm run start &) 
