@@ -24,10 +24,12 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            kill -9 $(lsof -t -i:3000 -sTCP:LISTEN) 
             cd ${{ secrets.PROJECT_PATH }} 
+            npm i pm2 -g
+            pm2 delete Timey 2> error.log
             git pull --ff-only 
             export NVM_DIR="$HOME/.nvm" 
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
             npm i 
-            (npm run start &) 
+            pm2 --name Timey start npm -- start
+
