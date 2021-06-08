@@ -1,6 +1,6 @@
-import { UserController } from '../controllers/user.controller'
-import { Documentation } from '../documentation/documentation'
-import { environment } from '../environments'
+import {UserController} from '../controllers/user.controller'
+import {Documentation} from '../documentation/documentation'
+import {environment} from '../environments'
 
 const userUrl = environment.apiUrl + '/users'
 export =[
