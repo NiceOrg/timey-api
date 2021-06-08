@@ -1,4 +1,4 @@
-import { TimeSlots } from './time-slots.model'
+import {TimeSlots} from './time-slots.model'
 
 export class Parameters {
   timeSlot = new TimeSlots({})
