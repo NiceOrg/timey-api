@@ -25,11 +25,11 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             cd ${{ secrets.PROJECT_PATH }} 
+            export NVM_DIR="$HOME/.nvm" 
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
             npm i pm2 -g
             pm2 delete Timey 2> error.log
             git pull --ff-only 
-            export NVM_DIR="$HOME/.nvm" 
-            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
             npm i 
             pm2 --name Timey start npm -- start
 
