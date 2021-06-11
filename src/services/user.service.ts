@@ -27,13 +27,13 @@ export const UserService = {
       throw new Error('L\'email existe déjà.')
     }
 
-    const savedUser = new User({_id: new mongoose.mongo.ObjectId(), email: user.email, password: this.hashPassword(user.password), tasks: user.tasks, tags: user.tags, parameters: new Parameters({timeSlot: user.parameters.timeSlot})})
+    const savedUser = new User({_id: new mongoose.mongo.ObjectId(), email: user.email.toLowerCase(), password: this.hashPassword(user.password), tasks: user.tasks, tags: user.tags, parameters: new Parameters({timeSlot: user.parameters.timeSlot})})
     void savedUser.save()
     return UserAdapter.adapt(savedUser)
   },
 
   async validateAuthentication(user: IUser) {
-    const matchUser = await User.find({email: user.email})
+    const matchUser = await User.find({email: user.email.toLowerCase()})
     if (matchUser.length !== 1) {
       throw new Error('L\'email n\'existe pas.')
     }
