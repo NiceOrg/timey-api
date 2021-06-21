@@ -27,7 +27,7 @@ export const UserService = {
       throw new Error('L\'email existe déjà.')
     }
 
-    const savedUser = new User({_id: new mongoose.mongo.ObjectId(), email: user.email.toLowerCase(), password: this.hashPassword(user.password), tasks: user.tasks, tags: user.tags, parameters: new Parameters({timeSlot: user.parameters.timeSlot})})
+    const savedUser = new User({_id: new mongoose.mongo.ObjectId(), email: user.email.toLowerCase(), password: this.hashPassword(user.password), tasks: user.tasks, tags: user.tags, parameters: new Parameters({timeSlot: user.parameters.timeSlot, language: user.parameters.language})})
     void savedUser.save()
     return UserAdapter.adapt(savedUser)
   },
@@ -48,7 +48,7 @@ export const UserService = {
   },
 
   async update(user: IUser) {
-    return User.findByIdAndUpdate(user.id, user, {new: true})
+    return User.findByIdAndUpdate(user._id, {tags: user.tags, tasks: user.tasks, parameters: user.parameters}, {new: true})
   },
 
   // TODO : make method async

@@ -29,6 +29,7 @@ export const UserController = {
   update: async (request: any, reply: any) => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     const userUpdate = new User(JSON.parse(request.body))
+    userUpdate._id = (request.params).id
     UserService.update(userUpdate)
       .then(userReturned => {
         return reply.type('application/json').code(200).send({user: userReturned})
