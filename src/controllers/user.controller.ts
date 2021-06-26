@@ -1,12 +1,13 @@
 import { FastifyReply } from 'fastify'
+import { UserUpdate } from '../models/users/user-update.model'
 import { User } from '../models/users/user.model'
 import { UserService } from '../services/user.service'
 
 interface FastifyRequest {
-  body: string
+  body: string;
   params: {
-    id: string
-  }
+    id: string;
+  };
 }
 
 export const UserController = {
@@ -34,10 +35,46 @@ export const UserController = {
 
   update: async (request: FastifyRequest, reply: FastifyReply): Promise<void> => {
     const userUpdate = new User(JSON.parse(request.body))
-    userUpdate._id = (request.params).id
+    userUpdate._id = request.params.id
     UserService.update(userUpdate)
       .then(userReturned => {
         return reply.type('application/json').code(200).send({ user: userReturned })
+      })
+      .catch(error => {
+        return reply.type('application/json').code(401).send({ errorMessage: error.message })
+      })
+  },
+
+  updateEmail: async (request: FastifyRequest, reply: FastifyReply): Promise<void> => {
+    const userUpdate = new UserUpdate(JSON.parse(String(request.body)) as UserUpdate)
+    userUpdate._id = request.params.id
+    UserService.updateEmail(userUpdate)
+      .then(userReturned => {
+        return reply.type('application/json').code(200).send({ user: userReturned })
+      })
+      .catch(error => {
+        return reply.type('application/json').code(401).send({ errorMessage: error.message })
+      })
+  },
+
+  updatePassword: async (request: FastifyRequest, reply: FastifyReply): Promise<void> => {
+    const userUpdate = new UserUpdate(JSON.parse(String(request.body)) as UserUpdate)
+    userUpdate._id = request.params.id
+    UserService.updatePassword(userUpdate)
+      .then(userReturned => {
+        return reply.type('application/json').code(200).send({ user: userReturned })
+      })
+      .catch(error => {
+        return reply.type('application/json').code(401).send({ errorMessage: error.message })
+      })
+  },
+
+  deleteAccount: async (request: FastifyRequest, reply: FastifyReply): Promise<void> => {
+    const userUpdate = new UserUpdate(JSON.parse(String(request.body)) as UserUpdate)
+    userUpdate._id = request.params.id
+    UserService.deleteAccount(userUpdate)
+      .then(() => {
+        return reply.type('application/json').code(200).send({})
       })
       .catch(error => {
         return reply.type('application/json').code(401).send({ errorMessage: error.message })
