@@ -1,10 +1,4 @@
-import {Environment} from '../models/environment.model'
-import {devEnv} from './environment.dev'
+import { Environment } from '../models/environment.model'
+import { devEnvironment as devEnvironment } from './environment.dev'
 
-let env = new Environment({})
-
-if (process.platform === 'win32') {
-  env = devEnv
-}
-
-export const environment = env
+export const environment = process.platform === 'win32' ? devEnvironment : new Environment({})

@@ -8,15 +8,15 @@ export const Documentation = {
       properties: {
         email: {
           type: 'string',
-          description: 'user email'
+          description: 'user email',
         },
         password: {
           type: 'string',
-          description: 'user password'
+          description: 'user password',
         },
         repeatPassword: {
           type: 'string',
-          description: 'user password repeated on account creation'
+          description: 'user password repeated on account creation',
         },
         tasks: {
           type: 'array',
@@ -25,19 +25,19 @@ export const Documentation = {
             properties: {
               id: {
                 type: 'string',
-                description: 'task id'
+                description: 'task id',
               },
               name: {
                 type: 'string',
-                description: 'task name'
+                description: 'task name',
               },
               seconds: {
                 type: 'integer',
-                description: 'task seconds'
-              }
-            }
+                description: 'task seconds',
+              },
+            },
           },
-          description: 'user tasks'
+          description: 'user tasks',
         },
         tags: {
           type: 'array',
@@ -46,22 +46,22 @@ export const Documentation = {
             properties: {
               id: {
                 type: 'string',
-                description: 'tag id'
+                description: 'tag id',
               },
               name: {
                 type: 'string',
-                description: 'tag name'
+                description: 'tag name',
               },
               color: {
                 type: 'string',
-                description: 'tag color in hex'
-              }
-            }
+                description: 'tag color in hex',
+              },
+            },
           },
-          description: 'user tags'
-        }
-      }
-    }
+          description: 'user tags',
+        },
+      },
+    },
   },
   authenticateUserSchema: {
     description: 'return user if authentication succeeds',
@@ -72,14 +72,14 @@ export const Documentation = {
       properties: {
         email: {
           type: 'string',
-          description: 'user email'
+          description: 'user email',
         },
         password: {
           type: 'string',
-          description: 'user password'
-        }
-      }
-    }
+          description: 'user password',
+        },
+      },
+    },
   },
   updateUserSchema: {
     description: 'update user',
@@ -90,7 +90,7 @@ export const Documentation = {
       properties: {
         _id: {
           type: 'string',
-          description: 'user id'
+          description: 'user id',
         },
         tasks: {
           type: 'array',
@@ -99,19 +99,19 @@ export const Documentation = {
             properties: {
               id: {
                 type: 'string',
-                description: 'task id'
+                description: 'task id',
               },
               name: {
                 type: 'string',
-                description: 'task name'
+                description: 'task name',
               },
               seconds: {
                 type: 'integer',
-                description: 'task seconds'
-              }
-            }
+                description: 'task seconds',
+              },
+            },
           },
-          description: 'user tasks'
+          description: 'user tasks',
         },
         tags: {
           type: 'array',
@@ -120,21 +120,21 @@ export const Documentation = {
             properties: {
               id: {
                 type: 'string',
-                description: 'tag id'
+                description: 'tag id',
               },
               name: {
                 type: 'string',
-                description: 'tag name'
+                description: 'tag name',
               },
               color: {
                 type: 'string',
-                description: 'tag color in hex'
-              }
-            }
+                description: 'tag color in hex',
+              },
+            },
           },
-          description: 'user tags'
-        }
-      }
-    }
-  }
+          description: 'user tags',
+        },
+      },
+    },
+  },
 }
