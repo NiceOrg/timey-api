@@ -22,5 +22,23 @@ export const userRoutes = [
     handler: UserController.update,
     schema: Documentation.updateUserSchema,
   },
+  {
+    method: 'PUT',
+    url: userUrl + '/changeEmail/:id',
+    handler: UserController.updateEmail,
+    schema: Documentation.updateUserSchema,
+  },
+  {
+    method: 'PUT',
+    url: userUrl + '/changePassword/:id',
+    handler: UserController.updatePassword,
+    schema: Documentation.updateUserSchema,
+  },
+  {
+    method: 'DELETE',
+    url: userUrl + '/deleteAccount/:id',
+    handler: UserController.deleteAccount,
+    schema: Documentation.updateUserSchema,
+  },
 ]
 

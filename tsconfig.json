@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
+    "moduleResolution": "Node",
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2015",
@@ -11,5 +12,12 @@
       "@types/node",
       "@types/mocha"
     ]
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ]
 }
