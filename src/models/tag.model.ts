@@ -3,7 +3,7 @@ export class Tag {
   name: string
   color: string
 
-  constructor(id = -1, name = '', color = '#ccc') {
+  constructor (id = -1, name = '', color = '#ccc') {
     this.id = id
     this.name = name
     this.color = color

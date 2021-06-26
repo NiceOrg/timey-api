@@ -1,0 +1,16 @@
+{
+  "extends": "./node_modules/shuunen-stack/.eslintrc.json",
+  "rules": {
+    "@typescript-eslint/brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "curly": [
+      "error",
+      "all"
+    ]
+  }
+}

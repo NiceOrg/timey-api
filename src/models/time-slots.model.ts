@@ -4,7 +4,7 @@ export class TimeSlots {
   pause = [] as number[]
   resume = [] as number[]
 
-  constructor(data: Partial<TimeSlots>) {
+  constructor (data: Partial<TimeSlots>) {
     Object.assign(this, data)
   }
 }

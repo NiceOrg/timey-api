@@ -1,249 +1,12 @@
 
  ⬜ no target specified via : --target=path/to/directory
  ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
+ ⬜ loading data from C:\Users\Guillaume\Projets Travail\2021\Timey\timey-api\repo-checker.config.js
 
-⬇️--- Entry from 2021-06-01 13:30:53 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
+⬇️--- Entry from 2021-06-26 16:06:39 ---⬇️
+ ⬜ repo-check v1.17.0 is starting 
 
- ⬜ Report :
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:31:39 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Report :
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:32:57 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Report :
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:33:28 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Report :
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:42:39 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Checking folder : C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2
-     🔹 found user_id in git config : NiceOrg
-     🔹 found repo_id in git config : timey-api
-     ✔️ has a .gitignore file
-     🔹 cant update file if fix not active
-     ❌ has a .editorconfig file
-     🔹 cant update file if fix not active
-     ❌ has no lint issues
-     🔹 cant update file if fix not active
-     🔹 cant update file if fix not active
-     ✔️ has a LICENSE file
-     ✔️ LICENSE has a GPL title 
-     ✔️ LICENSE has a version 3 subtitle 
-     🔹 cant update file if fix not active
-     ✔️ has a .nvmrc file
-     ✔️ .nvmrc has a recent lts node version 
-     🔹 cant update file if fix not active
-     ✔️ has a package.json file
-     ✔️ has no yarn.lock file
-     ❌ main file maximum size is specified in data file (ex: max_size_ko: 100)
-     🔹 /"bugs":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "bugs" property -- /"bugs":s".+"/ 
-     🔹 /"description":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "description" property -- /"description":s".+"/ 
-     🔹 /"files":\s\[\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "files" property -- /"files":s[n/ 
-     🔹 /"homepage":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "homepage" property -- /"homepage":s".+"/ 
-     🔹 /"keywords":\s\[\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "keywords" property -- /"keywords":s[n/ 
-     🔹 /"private":\s(?:false|true),\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "private" property -- /"private":s(?:false|true),n/ 
-     🔹 /"repository":\s{\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "repository" property -- /"repository":s{n/ 
-     🔹 /"author":\s".+"/ matched 0 instead of one or more
-     ❌ package.json does not have a "author" property -- /"author":s".+"/ 
-     ✔️ package.json has a "name" property 
-     ✔️ package.json has a "version" property 
-     ✔️ package.json has a "license" property 
-     ✔️ package.json has a GPL-3.0 license 
-     ✔️ package.json has no engines section 
-     ✔️ package.json has a script section 
-     ✔️ package.json has a pre-script for version automation 
-     ✔️ package.json has a post-script for version automation 
-     ✔️ package.json has pinned dependencies 
-     ✔️ package.json has no sass dependency (fat & useless) 
-     ✔️ package.json has no cross-var dependency (old & deprecated) 
-     ✔️ package.json has no tslint dependency (deprecated) 
-     🔹 cant update file if fix not active
-     ✔️ has a README.md file
-     ✔️ README.md has a title 
-     🔹 /docs\/logo.svg\)/ matched 0 instead of 1
-     ⚠️ README.md could have a logo -- ![logo](docs/logo.svg) 
-     🔹 /docs\/demo/ matched 0 instead of 1
-     ⚠️ README.md could have a demo screen or gif -- ![demo](docs/demo.gif) 
-     ✔️ README.md has no link to deprecated *.netlify.com 
-     ✔️ README.md has no links without https scheme 
-     ✔️ README.md has no CRLF Windows carriage return 
-     ✔️ README.md has no star flavored list 
-     🔹 /\(https:\/\/github.com\/Shuunen\/timey-api\/blob\/master\/LICENSE\)/ matched 0 instead of 1
-     ⚠️ README.md could have a "Project license" badge -- [![Project license](https://img.shields.io/github/license/Shuunen/timey-api.svg?color=informational)](https://github.com/Shuunen/timey-api/blob/master/LICENSE) 
-     ✔️ README.md has a thanks section 
-     ✔️ README.md has a thanks to Shields.io 
-     ✔️ README.md has a thanks to Github 
-     ✔️ README.md has no remaining thanks to Netlify 
-     ✔️ README.md has no remaining thanks to Rollup 
-     ✔️ README.md has no remaining thanks to Tsup 
-     ✔️ README.md has no remaining thanks to Ava 
-     ✔️ README.md has a thanks to Mocha 
-     ✔️ README.md has a thanks to Npm-run-all 
-     ✔️ README.md has no remaining thanks to C8 
-     ✔️ README.md has a thanks to Nyc 
-     ✔️ README.md has a thanks to Repo-checker 
-     ✔️ README.md has no remaining thanks to Vue 
-     ✔️ README.md has no remaining thanks to Eslint 
-     🔹 /\[Xo]/i matched 0 instead of 1
-     ⚠️ README.md could have a thanks to Xo -- - [Xo](https://github.com/xojs/xo) : super tool to find & fix problems 
-     ✔️ README.md has no remaining thanks to Reef 
-     ✔️ README.md has no remaining thanks to TailwindCss 
-     ✔️ README.md has no remaining thanks to Cypress.io 
-     🔹 cant update file if fix not active
-     ⚠️ has a renovate.json file
-     🔹 cant update file if fix not active
-     ✔️ has no .repo-checker.js file
-     ✔️ has a repo-checker.config.js file
-     🔹 cant update file if fix not active
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:44:13 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Checking folder : C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2
-     🔹 found user_id in git config : NiceOrg
-     🔹 found repo_id in git config : timey-api
-     ✔️ has a .gitignore file
-     🔹 cant update file if fix not active
-     ✔️ has a .editorconfig file
-     ✔️ .editorconfig has space indent 
-     ✔️ .editorconfig has indent size of 2 
-     ✔️ .editorconfig has unix style line endings 
-     ✔️ .editorconfig has utf-8 encoding 
-     ✔️ .editorconfig has whitespace trailing 
-     ✔️ .editorconfig has final new line rule 
-     🔹 /\[\*\.md]\ntrim_trailing_whitespace = false/ matched 0 instead of one or more
-     ⚠️ .editorconfig could have specific markdown trailing rule -- /[*.md]ntrim_trailing_whitespace = false/ 
-     ✔️ .editorconfig has no specific html indent rule 
-     🔹 cant update file if fix not active
-     ❌ has no lint issues
-     🔹 cant update file if fix not active
-     🔹 cant update file if fix not active
-     ✔️ has a LICENSE file
-     ✔️ LICENSE has a GPL title 
-     ✔️ LICENSE has a version 3 subtitle 
-     🔹 cant update file if fix not active
-     ✔️ has a .nvmrc file
-     ✔️ .nvmrc has a recent lts node version 
-     🔹 cant update file if fix not active
-     ✔️ has a package.json file
-     ✔️ has no yarn.lock file
-     ✔️ main file maximum size is specified in data file (ex: max_size_ko: 100)
-     ✔️ has a src/app.ts file
-     ✔️ main file specified in package.json (src/app.ts) exists on disk (be sure to build before run repo-check)
-     🔹 found that file C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\src\app.ts has a size of : 0 Ko
-     ✔️ main file size (0Ko) should be less or equal to max size allowed (50Ko)
-     🔹 /"bugs":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "bugs" property -- /"bugs":s".+"/ 
-     🔹 /"description":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "description" property -- /"description":s".+"/ 
-     🔹 /"files":\s\[\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "files" property -- /"files":s[n/ 
-     🔹 /"homepage":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "homepage" property -- /"homepage":s".+"/ 
-     🔹 /"keywords":\s\[\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "keywords" property -- /"keywords":s[n/ 
-     🔹 /"private":\s(?:false|true),\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "private" property -- /"private":s(?:false|true),n/ 
-     🔹 /"repository":\s{\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "repository" property -- /"repository":s{n/ 
-     🔹 /"author":\s".+"/ matched 0 instead of one or more
-     ❌ package.json does not have a "author" property -- /"author":s".+"/ 
-     ✔️ package.json has a "name" property 
-     ✔️ package.json has a "version" property 
-     ✔️ package.json has a "license" property 
-     ✔️ package.json has a GPL-3.0 license 
-     ✔️ package.json has no engines section 
-     ✔️ package.json has a script section 
-     ✔️ package.json has a pre-script for version automation 
-     ✔️ package.json has a post-script for version automation 
-     ✔️ package.json has pinned dependencies 
-     ✔️ package.json has no sass dependency (fat & useless) 
-     ✔️ package.json has no cross-var dependency (old & deprecated) 
-     ✔️ package.json has no tslint dependency (deprecated) 
-     🔹 cant update file if fix not active
-     ✔️ has a README.md file
-     ✔️ README.md has a title 
-     🔹 /docs\/logo.svg\)/ matched 0 instead of 1
-     ⚠️ README.md could have a logo -- ![logo](docs/logo.svg) 
-     🔹 /docs\/demo/ matched 0 instead of 1
-     ⚠️ README.md could have a demo screen or gif -- ![demo](docs/demo.gif) 
-     ✔️ README.md has no link to deprecated *.netlify.com 
-     ✔️ README.md has no links without https scheme 
-     ✔️ README.md has no CRLF Windows carriage return 
-     ✔️ README.md has no star flavored list 
-     🔹 /\(https:\/\/github.com\/Shuunen\/timey-api\/blob\/master\/LICENSE\)/ matched 0 instead of 1
-     ⚠️ README.md could have a "Project license" badge -- [![Project license](https://img.shields.io/github/license/Shuunen/timey-api.svg?color=informational)](https://github.com/Shuunen/timey-api/blob/master/LICENSE) 
-     ✔️ README.md has a thanks section 
-     ✔️ README.md has a thanks to Shields.io 
-     ✔️ README.md has a thanks to Github 
-     ✔️ README.md has no remaining thanks to Netlify 
-     ✔️ README.md has no remaining thanks to Rollup 
-     ✔️ README.md has no remaining thanks to Tsup 
-     ✔️ README.md has no remaining thanks to Ava 
-     ✔️ README.md has a thanks to Mocha 
-     ✔️ README.md has a thanks to Npm-run-all 
-     ✔️ README.md has no remaining thanks to C8 
-     ✔️ README.md has a thanks to Nyc 
-     ✔️ README.md has a thanks to Repo-checker 
-     ✔️ README.md has no remaining thanks to Vue 
-     ✔️ README.md has no remaining thanks to Eslint 
-     🔹 /\[Xo]/i matched 0 instead of 1
-     ⚠️ README.md could have a thanks to Xo -- - [Xo](https://github.com/xojs/xo) : super tool to find & fix problems 
-     ✔️ README.md has no remaining thanks to Reef 
-     ✔️ README.md has no remaining thanks to TailwindCss 
-     ✔️ README.md has no remaining thanks to Cypress.io 
-     🔹 cant update file if fix not active
-     ⚠️ has a renovate.json file
-     🔹 cant update file if fix not active
-     ✔️ has no .repo-checker.js file
-     ✔️ has a repo-checker.config.js file
-     🔹 cant update file if fix not active
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:44:55 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Checking folder : C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2
+ ⬜ Checking folder : C:\Users\Guillaume\Projets Travail\2021\Timey\timey-api
      🔹 found user_id in git config : NiceOrg
      🔹 found repo_id in git config : timey-api
      ✔️ has a .gitignore file
@@ -258,114 +21,12 @@
      ✔️ .editorconfig has specific markdown trailing rule 
      ✔️ .editorconfig has no specific html indent rule 
      🔹 cant update file if fix not active
-     ❌ has no lint issues
+     🔹 skipping eslintrc checks
      🔹 cant update file if fix not active
-     🔹 cant update file if fix not active
-     ✔️ has a LICENSE file
-     ✔️ LICENSE has a GPL title 
-     ✔️ LICENSE has a version 3 subtitle 
-     🔹 cant update file if fix not active
-     ✔️ has a .nvmrc file
-     ✔️ .nvmrc has a recent lts node version 
-     🔹 cant update file if fix not active
-     ✔️ has a package.json file
-     ✔️ has no yarn.lock file
-     ✔️ main file maximum size is specified in data file (ex: max_size_ko: 100)
-     ✔️ has a src/app.ts file
-     ✔️ main file specified in package.json (src/app.ts) exists on disk (be sure to build before run repo-check)
-     🔹 found that file C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\src\app.ts has a size of : 0 Ko
-     ✔️ main file size (0Ko) should be less or equal to max size allowed (50Ko)
-     🔹 /"bugs":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "bugs" property -- /"bugs":s".+"/ 
-     🔹 /"description":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "description" property -- /"description":s".+"/ 
-     🔹 /"files":\s\[\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "files" property -- /"files":s[n/ 
-     🔹 /"homepage":\s".+"/ matched 0 instead of one or more
-     ⚠️ package.json could have a "homepage" property -- /"homepage":s".+"/ 
-     🔹 /"keywords":\s\[\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "keywords" property -- /"keywords":s[n/ 
-     🔹 /"private":\s(?:false|true),\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "private" property -- /"private":s(?:false|true),n/ 
-     🔹 /"repository":\s{\n/ matched 0 instead of one or more
-     ⚠️ package.json could have a "repository" property -- /"repository":s{n/ 
-     🔹 /"author":\s".+"/ matched 0 instead of one or more
-     ❌ package.json does not have a "author" property -- /"author":s".+"/ 
-     ✔️ package.json has a "name" property 
-     ✔️ package.json has a "version" property 
-     ✔️ package.json has a "license" property 
-     ✔️ package.json has a GPL-3.0 license 
-     ✔️ package.json has no engines section 
-     ✔️ package.json has a script section 
-     ✔️ package.json has a pre-script for version automation 
-     ✔️ package.json has a post-script for version automation 
-     ✔️ package.json has pinned dependencies 
-     ✔️ package.json has no sass dependency (fat & useless) 
-     ✔️ package.json has no cross-var dependency (old & deprecated) 
-     ✔️ package.json has no tslint dependency (deprecated) 
-     🔹 cant update file if fix not active
-     ✔️ has a README.md file
-     ✔️ README.md has a title 
-     🔹 /docs\/logo.svg\)/ matched 0 instead of 1
-     ⚠️ README.md could have a logo -- ![logo](docs/logo.svg) 
-     🔹 /docs\/demo/ matched 0 instead of 1
-     ⚠️ README.md could have a demo screen or gif -- ![demo](docs/demo.gif) 
-     ✔️ README.md has no link to deprecated *.netlify.com 
-     ✔️ README.md has no links without https scheme 
-     ✔️ README.md has no CRLF Windows carriage return 
-     ✔️ README.md has no star flavored list 
-     🔹 /\(https:\/\/github.com\/Shuunen\/timey-api\/blob\/master\/LICENSE\)/ matched 0 instead of 1
-     ⚠️ README.md could have a "Project license" badge -- [![Project license](https://img.shields.io/github/license/Shuunen/timey-api.svg?color=informational)](https://github.com/Shuunen/timey-api/blob/master/LICENSE) 
-     ✔️ README.md has a thanks section 
-     ✔️ README.md has a thanks to Shields.io 
-     ✔️ README.md has a thanks to Github 
-     ✔️ README.md has no remaining thanks to Netlify 
-     ✔️ README.md has no remaining thanks to Rollup 
-     ✔️ README.md has no remaining thanks to Tsup 
-     ✔️ README.md has no remaining thanks to Ava 
-     ✔️ README.md has a thanks to Mocha 
-     ✔️ README.md has a thanks to Npm-run-all 
-     ✔️ README.md has no remaining thanks to C8 
-     ✔️ README.md has a thanks to Nyc 
-     ✔️ README.md has a thanks to Repo-checker 
-     ✔️ README.md has no remaining thanks to Vue 
-     ✔️ README.md has no remaining thanks to Eslint 
-     🔹 /\[Xo]/i matched 0 instead of 1
-     ⚠️ README.md could have a thanks to Xo -- - [Xo](https://github.com/xojs/xo) : super tool to find & fix problems 
-     ✔️ README.md has no remaining thanks to Reef 
-     ✔️ README.md has no remaining thanks to TailwindCss 
-     ✔️ README.md has no remaining thanks to Cypress.io 
-     🔹 cant update file if fix not active
-     ⚠️ has a renovate.json file
-     🔹 cant update file if fix not active
-     ✔️ has no .repo-checker.js file
-     ✔️ has a repo-checker.config.js file
-     🔹 cant update file if fix not active
-
- ⬜ no target specified via : --target=path/to/directory
- ⬜ targeting current directory...
- ⬜ loading data from C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\repo-checker.config.js
-
-⬇️--- Entry from 2021-06-01 13:47:59 ---⬇️
- ⬜ repo-check v1.16.0 is starting 
-
- ⬜ Checking folder : C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2
-     🔹 found user_id in git config : NiceOrg
-     🔹 found repo_id in git config : timey-api
-     ✔️ has a .gitignore file
-     🔹 cant update file if fix not active
-     ✔️ has a .editorconfig file
-     ✔️ .editorconfig has space indent 
-     ✔️ .editorconfig has indent size of 2 
-     ✔️ .editorconfig has unix style line endings 
-     ✔️ .editorconfig has utf-8 encoding 
-     ✔️ .editorconfig has whitespace trailing 
-     ✔️ .editorconfig has final new line rule 
-     ✔️ .editorconfig has specific markdown trailing rule 
-     ✔️ .editorconfig has no specific html indent rule 
-     🔹 cant update file if fix not active
-     ✔️ has no lint issues
-     🔹 cant update file if fix not active
+     ✔️ .github/workflows/ci.yml has a checkout step in ci workflow 
+     ✔️ .github/workflows/ci.yml has a node step in ci workflow 
+     ✔️ a install step in ci workflow
+     ✔️ at least one test step in ci workflow
      🔹 cant update file if fix not active
      ✔️ has a LICENSE file
      ✔️ LICENSE has a GPL title 
@@ -379,8 +40,8 @@
      ✔️ main file maximum size is specified in data file (ex: max_size_ko: 100)
      ✔️ has a src/app.ts file
      ✔️ main file specified in package.json (src/app.ts) exists on disk (be sure to build before run repo-check)
-     🔹 found that file C:\Users\guillaume.malek\Projets\2021 - Inetum\Time Tracker - Stage\timey_api2\src\app.ts has a size of : 0 Ko
-     ✔️ main file size (0Ko) should be less or equal to max size allowed (50Ko)
+     🔹 found that file C:\Users\Guillaume\Projets Travail\2021\Timey\timey-api\src\app.ts has a size of : 1 Ko
+     ✔️ main file size (1Ko) should be less or equal to max size allowed (50Ko)
      ✔️ package.json has a "bugs" property 
      🔹 /"description":\s".+"/ matched 0 instead of one or more
      ⚠️ package.json could have a "description" property -- /"description":s".+"/ 
@@ -421,6 +82,7 @@
      ✔️ README.md has a "Project license" badge 
      ✔️ README.md has a thanks section 
      ✔️ README.md has a thanks to Shields.io 
+     ✔️ README.md has no remaining thanks to Travis-ci.com 
      ✔️ README.md has a thanks to Github 
      ✔️ README.md has no remaining thanks to Netlify 
      ✔️ README.md has no remaining thanks to Rollup 
@@ -429,18 +91,136 @@
      ✔️ README.md has a thanks to Mocha 
      ✔️ README.md has a thanks to Npm-run-all 
      ✔️ README.md has no remaining thanks to C8 
-     ✔️ README.md has a thanks to Nyc 
+     🔹 /\[Nyc]/i matched 1 instead of 0
+     ⚠️ README.md could have no remaining thanks to Nyc -- - [Nyc](https://github.com/istanbuljs/nyc) : simple & effective cli for code coverage 
      ✔️ README.md has a thanks to Repo-checker 
      ✔️ README.md has no remaining thanks to Vue 
-     ✔️ README.md has no remaining thanks to Eslint 
-     🔹 /\[Xo]/i matched 0 instead of 1
-     ⚠️ README.md could have a thanks to Xo -- - [Xo](https://github.com/xojs/xo) : super tool to find & fix problems 
+     🔹 /\[Eslint]/i matched 0 instead of 1
+     ⚠️ README.md could have a thanks to Eslint -- - [Eslint](https://eslint.org) : super tool to find & fix problems 
+     ✔️ README.md has no remaining thanks to Xo 
      ✔️ README.md has no remaining thanks to Reef 
      ✔️ README.md has no remaining thanks to TailwindCss 
      ✔️ README.md has no remaining thanks to Cypress.io 
      🔹 cant update file if fix not active
-     ⚠️ has a renovate.json file
+     ✔️ has a renovate.json file
+     ✔️ renovate.json has an extends section 
+     ✔️ renovate.json has a base config 
+     ✔️ renovate.json has an auto merge config 
      🔹 cant update file if fix not active
      ✔️ has no .repo-checker.js file
      ✔️ has a repo-checker.config.js file
+     🔹 cant update file if fix not active
+     🔹 cant update file if fix not active
+
+ ⬜ no target specified via : --target=path/to/directory
+ ⬜ targeting current directory...
+ ⬜ loading data from C:\Users\Guillaume\Projets Travail\2021\Timey\timey-api\repo-checker.config.js
+
+⬇️--- Entry from 2021-06-26 16:10:44 ---⬇️
+ ⬜ repo-check v1.17.0 is starting 
+
+ ⬜ Checking folder : C:\Users\Guillaume\Projets Travail\2021\Timey\timey-api
+     🔹 found user_id in git config : NiceOrg
+     🔹 found repo_id in git config : timey-api
+     ✔️ has a .gitignore file
+     🔹 cant update file if fix not active
+     ✔️ has a .editorconfig file
+     ✔️ .editorconfig has space indent 
+     ✔️ .editorconfig has indent size of 2 
+     ✔️ .editorconfig has unix style line endings 
+     ✔️ .editorconfig has utf-8 encoding 
+     ✔️ .editorconfig has whitespace trailing 
+     ✔️ .editorconfig has final new line rule 
+     ✔️ .editorconfig has specific markdown trailing rule 
+     ✔️ .editorconfig has no specific html indent rule 
+     🔹 cant update file if fix not active
+     🔹 skipping eslintrc checks
+     🔹 cant update file if fix not active
+     ✔️ .github/workflows/ci.yml has a checkout step in ci workflow 
+     ✔️ .github/workflows/ci.yml has a node step in ci workflow 
+     ✔️ a install step in ci workflow
+     ✔️ at least one test step in ci workflow
+     🔹 cant update file if fix not active
+     ✔️ has a LICENSE file
+     ✔️ LICENSE has a GPL title 
+     ✔️ LICENSE has a version 3 subtitle 
+     🔹 cant update file if fix not active
+     ✔️ has a .nvmrc file
+     ✔️ .nvmrc has a recent lts node version 
+     🔹 cant update file if fix not active
+     ✔️ has a package.json file
+     ✔️ has no yarn.lock file
+     ✔️ main file maximum size is specified in data file (ex: max_size_ko: 100)
+     ✔️ has a src/app.ts file
+     ✔️ main file specified in package.json (src/app.ts) exists on disk (be sure to build before run repo-check)
+     🔹 found that file C:\Users\Guillaume\Projets Travail\2021\Timey\timey-api\src\app.ts has a size of : 1 Ko
+     ✔️ main file size (1Ko) should be less or equal to max size allowed (50Ko)
+     ✔️ package.json has a "bugs" property 
+     🔹 /"description":\s".+"/ matched 0 instead of one or more
+     ⚠️ package.json could have a "description" property -- /"description":s".+"/ 
+     🔹 /"files":\s\[\n/ matched 0 instead of one or more
+     ⚠️ package.json could have a "files" property -- /"files":s[n/ 
+     🔹 /"homepage":\s".+"/ matched 0 instead of one or more
+     ⚠️ package.json could have a "homepage" property -- /"homepage":s".+"/ 
+     🔹 /"keywords":\s\[\n/ matched 0 instead of one or more
+     ⚠️ package.json could have a "keywords" property -- /"keywords":s[n/ 
+     🔹 /"private":\s(?:false|true),\n/ matched 0 instead of one or more
+     ⚠️ package.json could have a "private" property -- /"private":s(?:false|true),n/ 
+     🔹 /"repository":\s{\n/ matched 0 instead of one or more
+     ⚠️ package.json could have a "repository" property -- /"repository":s{n/ 
+     ✔️ package.json has a "author" property 
+     ✔️ package.json has a "name" property 
+     ✔️ package.json has a "version" property 
+     ✔️ package.json has a "license" property 
+     ✔️ package.json has a GPL-3.0 license 
+     ✔️ package.json has no engines section 
+     ✔️ package.json has a script section 
+     ✔️ package.json has a pre-script for version automation 
+     ✔️ package.json has a post-script for version automation 
+     ✔️ package.json has pinned dependencies 
+     ✔️ package.json has no sass dependency (fat & useless) 
+     ✔️ package.json has no cross-var dependency (old & deprecated) 
+     ✔️ package.json has no tslint dependency (deprecated) 
+     🔹 cant update file if fix not active
+     ✔️ has a README.md file
+     ✔️ README.md has a title 
+     🔹 /docs\/logo.svg\)/ matched 0 instead of 1
+     ⚠️ README.md could have a logo -- ![logo](docs/logo.svg) 
+     🔹 /docs\/demo/ matched 0 instead of 1
+     ⚠️ README.md could have a demo screen or gif -- ![demo](docs/demo.gif) 
+     ✔️ README.md has no link to deprecated *.netlify.com 
+     ✔️ README.md has no links without https scheme 
+     ✔️ README.md has no CRLF Windows carriage return 
+     ✔️ README.md has no star flavored list 
+     ✔️ README.md has a "Project license" badge 
+     ✔️ README.md has a thanks section 
+     ✔️ README.md has a thanks to Shields.io 
+     ✔️ README.md has no remaining thanks to Travis-ci.com 
+     ✔️ README.md has a thanks to Github 
+     ✔️ README.md has no remaining thanks to Netlify 
+     ✔️ README.md has no remaining thanks to Rollup 
+     ✔️ README.md has no remaining thanks to Tsup 
+     ✔️ README.md has no remaining thanks to Ava 
+     ✔️ README.md has a thanks to Mocha 
+     ✔️ README.md has a thanks to Npm-run-all 
+     ✔️ README.md has no remaining thanks to C8 
+     🔹 /\[Nyc]/i matched 1 instead of 0
+     ⚠️ README.md could have no remaining thanks to Nyc -- - [Nyc](https://github.com/istanbuljs/nyc) : simple & effective cli for code coverage 
+     ✔️ README.md has a thanks to Repo-checker 
+     ✔️ README.md has no remaining thanks to Vue 
+     🔹 /\[Eslint]/i matched 0 instead of 1
+     ⚠️ README.md could have a thanks to Eslint -- - [Eslint](https://eslint.org) : super tool to find & fix problems 
+     ✔️ README.md has no remaining thanks to Xo 
+     ✔️ README.md has no remaining thanks to Reef 
+     ✔️ README.md has no remaining thanks to TailwindCss 
+     ✔️ README.md has no remaining thanks to Cypress.io 
+     🔹 cant update file if fix not active
+     ✔️ has a renovate.json file
+     ✔️ renovate.json has an extends section 
+     ✔️ renovate.json has a base config 
+     ✔️ renovate.json has an auto merge config 
+     🔹 cant update file if fix not active
+     ✔️ has no .repo-checker.js file
+     ✔️ has a repo-checker.config.js file
+     🔹 cant update file if fix not active
      🔹 cant update file if fix not active

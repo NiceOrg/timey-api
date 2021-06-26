@@ -1,26 +1,26 @@
-import {UserController} from '../controllers/user.controller'
-import {Documentation} from '../documentation/documentation'
-import {environment} from '../environments'
+import { UserController } from '../controllers/user.controller'
+import { Documentation } from '../documentation/documentation'
+import { environment } from '../environments'
 
 const userUrl = environment.apiUrl + '/users'
-export =[
+export const userRoutes = [
   {
     method: 'POST',
     url: userUrl,
     handler: UserController.add,
-    schema: Documentation.addUserSchema
+    schema: Documentation.addUserSchema,
   },
   {
     method: 'POST',
     url: userUrl + '/authenticate',
     handler: UserController.authenticate,
-    schema: Documentation.authenticateUserSchema
+    schema: Documentation.authenticateUserSchema,
   },
   {
     method: 'PUT',
     url: userUrl + '/:id',
     handler: UserController.update,
-    schema: Documentation.updateUserSchema
-  }
+    schema: Documentation.updateUserSchema,
+  },
 ]
 

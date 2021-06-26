@@ -11,6 +11,5 @@
       "@types/node",
       "@types/mocha"
     ]
-  },
-  "display": "Recommended"
+  }
 }

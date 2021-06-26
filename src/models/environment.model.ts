@@ -4,7 +4,7 @@ export class Environment {
   apiUrl = ''
   port = '3000'
 
-  constructor(data: Partial<Environment>) {
+  constructor (data: Partial<Environment>) {
     Object.assign(this, data)
   }
 }

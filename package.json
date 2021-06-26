@@ -14,35 +14,31 @@
     "fastify-swagger": "4.7.0",
     "mongodb": "3.6.9",
     "mongoose": "5.12.11",
-    "ts-node": "10.0.0",
-    "typescript": "4.3.2"
+    "nodemon": "2.0.7"
   },
   "description": "",
   "devDependencies": {
     "@types/bcrypt": "5.0.0",
-    "@types/mocha": "8.2.2",
-    "@types/node": "15.6.1",
-    "mocha": "8.4.0",
-    "nodemon": "2.0.7",
-    "npm-run-all": "4.1.5",
-    "nyc": "15.1.0",
-    "repo-check": "1.16.0",
-    "xo": "0.39.1"
+    "@types/mocha": "*",
+    "@types/node": "*",
+    "npm-run-all": "*",
+    "eslint": "*",
+    "shuunen-stack": "0.9.6"
   },
   "license": "GPL-3.0",
   "main": "src/app.ts",
   "name": "timey_api2",
   "scripts": {
-    "ci": "run-s check lint test",
-    "check": "repo-check",
+    "build": "stack build src/app.ts --platform=node",
+    "ci": "run-s lint test",
     "dev": "nodemon --quiet",
-    "lint": "xo",
+    "lint": "eslint --fix --ignore-path .gitignore --ext .js,.ts . && repo-check",
     "postversion": "git push && git push --tags",
     "preversion": "npm run ci",
     "start": "npm run dev",
-    "test": "nyc mocha",
-    "test:watch": "nodemon --quiet --watch services --watch tests --exec npm test --ext .ts",
-    "update": "npx npm-check-updates -u"
+    "test": "stack test",
+    "test:watch": "stack test --watch",
+    "update": "stack update"
   },
   "version": "1.0.0"
 }
