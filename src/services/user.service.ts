@@ -20,6 +20,9 @@ export const UserService = {
     if (user.password !== user.repeatPassword) {
       throw new Error('Les mots de passes ne correspondent pas.')
     }
+    if (!this.validateEmail(user.email)) {
+      throw new Error('L\'adresse mail n\'est pas valide.')
+    }
     if (userList.some((u: IUser) => user.email === u.email)) {
       throw new Error('L\'email existe déjà.')
     }
@@ -61,7 +64,9 @@ export const UserService = {
     if (userList.some((u: IUser) => user.newEmail === u.email)) {
       throw new Error('L\'email existe déjà.')
     }
-
+    if (!this.validateEmail(user.newEmail)) {
+      throw new Error('L\'adresse mail n\'est pas valide.')
+    }
     const userToUpdate = userList.find((u: IUser) => user._id === u._id)
     if (!userToUpdate) {
       throw new Error('Une erreur interne est survenue.')
@@ -121,6 +126,11 @@ export const UserService = {
     }
 
     return User.findByIdAndDelete(user._id)
+  },
+  // http://emailregex.com/
+  validateEmail (email: string): boolean {
+    const regex = /^(([^\s"(),.:;<>@[\\\]]+(\.[^\s"(),.:;<>@[\\\]]+)*)|(".+"))@((\[(?:\d{1,3}\.){3}\d{1,3}])|(([\dA-Za-z-]+\.)+[A-Za-z]{2,}))$/
+    return email.match(regex) !== null ? true : false
   },
 
 }
